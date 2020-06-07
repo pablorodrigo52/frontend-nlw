@@ -1,0 +1,49 @@
+div.background {
+    position: relative;
+    height: 100vh;
+    background: #040116d8;
+    color: white;
+}
+
+div.background span.content h2{
+    color: white;
+}
+div.background span.content{
+    display: block;
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+div.background span.content span svg {
+    margin-right: 16px;
+    color: var(--primary-color);
+    font-size: 75pt;
+}
+
+div.background span.content a {
+    width: max-content;
+    max-width: 360px;
+    height: 61px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.background span.content a:hover {
+    background: #2FB86E;
+  }
+  
+
